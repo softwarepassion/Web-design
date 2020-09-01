@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile cards</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<style type="text/css">
+  .parent{
+   display: flex;
+   flex-direction: row;
+   width:100%;
+   padding:1%;
+   margin: 1%;
+   border:2px solid maroon ;
+  }
+  .card{
+   padding: 1%;
+   margin: 5%;
+   border:2px solid blue;
+   box-shadow: 10px 10px 10px;
+   text-shadow: 3px 3px 3px;
+   color: black;
+  }
+  /*@media screen and(max-width: 425px)
+{
+.parent
+{
+	
+	justify-content: center;
+	display:flex;
+	flex-direction: row;
+	background-color: #DAF7A6;
+	width:100%;
+   padding:1%;
+   margin: 1%;
+	
+}	
+.card{
+	border:2px solid #ddd;
+	padding:5px;
+	box-shadow: 10px 10px 10px;
+   text-shadow: 3px 3px 3px;
+   color: black;
+	margin: 5px;
+	flex:1;
+	
+
+}
+@media screen and (min-width: 426px) and (max-width: 768px)
+{
+.parent
+{
+	
+	justify-content: center;
+	display:flex;
+	flex-direction: row;
+	background-color: #DAF7A6;
+	width:100%;
+   padding:1%;
+   margin: 1%;
+	
+}	
+.card{
+	border:2px solid #ddd;
+	padding:5px;
+	box-shadow: 10px 10px 10px;
+   text-shadow: 3px 3px 3px;
+   color: black;
+	margin: 5px;
+	flex:1;
+	
+
+}
+ 
+}*/
+
+</style></head>
+<body>
+	<div class="parent">
+  		<div class="card">
+   			<img src="p1.jpg" class="card-img rounded-circle">
+   			<div class="card-body">
+    			<h1 class="card-title">R.Ramya</h1>
+    			<h2 class="card-text">Software</h1>
+    			<button class="text-success">Click Me</button>
+   			</div>
+  		</div>
+  		<div class="card">
+   			<img src="p2.jpg" class="card-img">
+  			<div class="card-body">
+    			<h1 class="card-title">P.Sravani</h1>
+    			<h2 class="card-text">Sr.Developer</h1>
+    			<button class="text-success">Click Me</button>
+   			</div>
+  		</div>
+  		<div class="card">
+   			<img src="p3.jpg" class="card-img rounded-circle">
+   			<div class="card-body">
+    			<h1 class="card-title">Sweta.P</h1>
+    			<h2 class="card-text">Jr.Developer</h1>
+    			<button class="text-success">Click Me</button>
+   			</div>
+ 		</div>
+ 	</div>
+
+</body>
+</html>
