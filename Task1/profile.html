@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>profile cards</title>
+	<!--<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<style type="text/css">
+  .parent{
+   display: flex;
+   flex-direction: row;
+   width:100%;
+   padding:1%;
+   margin: 1%;
+   border:2px solid maroon ;
+   background-color: pink;
+   flex-wrap: wrap;
+  }
+  .card{
+   padding: 1%;
+   margin: 5%;
+   border:2px solid blue;
+   
+   flex:1;
+  }
+  @media screen and(max-width: 320px)
+{
+.parent
+{
+	
+	
+	display:flex;
+	flex-direction: column;
+	/*background-color: red;*/
+	flex: 1;
+	
+}	
+.card{
+	border:2px solid #ddd;
+	padding:3px;
+	
+	flex-direction: column;
+	
+
+}
+}
+@media screen and (min-width: 321px) and (max-width: 480px)
+{
+.parent
+{
+	
+	display:flex;
+  flex-direction: column;
+
+  flex: 1;
+	
+}	
+.card{
+	border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+	
+
+}
+ 
+}
+@media screen and (min-width: 481px) and (max-width: 767px)
+{
+.parent
+{
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: green;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+  
+
+}
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+.parent
+{
+  
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: yellow;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:2px;
+  2
+  flex-direction: column;
+  
+
+}
+}
+@media screen and (min-width: 1224px)
+{
+.parent
+{
+  
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: violet;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+
+}
+}
+@media screen and (min-width: 1824px)
+{
+.parent
+{
+  
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: orange;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+
+}
+}
+</style></head>
+<body>
+	<div class="parent">
+  		<div class="card">
+   			<img src="p1.jpg" class="card-img rounded-circle" alt="ss">
+   			<div class="card-body">
+    			<h1 class="card-title">R.Ramya</h1>
+    			<h2 class="card-text">Software</h1>
+    			<button class="text-success">Click Me</button>
+   			</div>
+  		</div>
+  		<div class="card">
+   			<img src="p2.jpg" class="card-img" alt="ss1">
+  			<div class="card-body">
+    			<h1 class="card-title">P.Sravani</h1>
+    			<h2 class="card-text">Sr.Developer</h1>
+    			<button class="text-success">Click Me</button>
+   			</div>
+  		</div>
+  		<div class="card">
+   			<img src="p3.jpg" class="card-img rounded-circle" alt="ss2">
+   			<div class="card-body">
+    			<h1 class="card-title">Sweta.P</h1>
+    			<h2 class="card-text">Jr.Developer</h1>
+    			<button class="text-success">Click Me</button>
+   			</div>
+ 		</div>
+ 	</div>
+
+</body>
+</html>

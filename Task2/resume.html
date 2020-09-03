@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My own website</title>
+
+	<!--<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="My react js website">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  	<style type="text/css">
+  .parent{
+   display: flex;
+   flex-direction: row;
+   width:100%;
+   /*padding:1%;
+   margin: 1%;*/
+   border:2px solid maroon ;
+  }
+  .card{
+   /*padding: 1%;*/
+   margin: 5%;
+   border:2px solid blue;
+   
+   /*color: black;*/
+}
+ @media screen and(max-width: 320px)
+{
+.parent
+{
+	
+	
+	display:flex;
+	flex-direction: column;
+	/*background-color: red;*/
+	flex: 1;
+	
+}	
+.card{
+	border:2px solid #ddd;
+	padding:3px;
+	
+	flex-direction: column;
+	
+
+}
+}
+@media screen and (min-width: 321px) and (max-width: 480px)
+{
+.parent
+{
+	
+	display:flex;
+  flex-direction: column;
+
+  flex: 1;
+	
+}	
+.card{
+	border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+	
+
+}
+ 
+}
+@media screen and (min-width: 481px) and (max-width: 767px)
+{
+.parent
+{
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: green;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+  
+
+}
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+.parent
+{
+  
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: yellow;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:2px;
+  2
+  flex-direction: column;
+  
+
+}
+}
+@media screen and (min-width: 1224px)
+{
+.parent
+{
+  
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: violet;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+
+}
+}
+@media screen and (min-width: 1824px)
+{
+.parent
+{
+  
+  
+  display:flex;
+  flex-direction: row;
+  /*background-color: orange;*/
+  flex: 1;
+  
+} 
+.card{
+  border:2px solid #ddd;
+  padding:3px;
+  
+  flex-direction: column;
+  
+
+}
+}
+</style>
+</head>
+<body>
+
+<center><div class="parent">
+	<div class="card">
+		<img src="p2.jpg" class="rounded-circle" alt="11">
+		<div class="card-body">
+			<h2 class="card-title">R.Ramya</h2>
+			<h3 class="card-text">ramya.repanacse@gmail.com</h3>
+			<a href="sem.html"><button class="btn-warning">View resume</button></a>
+		</div>
+	</div>
+	<div class="card">
+		<img src="p1.jpg" class="rounded-circle" alt="12">
+		<div class="card-body">
+			<h2 class="card-title">P.Sravani</h2>
+			<h3 class="card-text">peramsravani0521@gmail.com</h3>
+			<a href="nonsem.html"><button class="btn-primary">View resume</button></a>
+		</div>
+	</div>
+</div>
+</center>
+</body>
+
+</html>
